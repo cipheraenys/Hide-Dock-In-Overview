@@ -1,21 +1,54 @@
-<h1>THE EXTENSION WILL NOT BE UPDATED ANYMORE</h1>
-I would like to thank everyone who requested compatibility updates, support, and new features. I want to be honest with you all: I haven’t used GNOME for quite some time now. I'm currently working at a company, involved in other projects, and focusing on learning new things.
-At one point, I said I would have updated the extension soon, but unfortunately, that won’t happen. I’m sorry for saying that — I was excited at the time, but the reality is that I no longer use this environment, and I believe it’s time to put this project to rest. Even though maintaining it wouldn’t be particularly difficult, it’s the feeling of obligation that takes away the motivation for me. It’s something I didn’t think about when I first started this project, forgive my error. I truly appreciated seeing how this extension has grown over time. Thank you all!
-A special thank you goes to gookie-dev, who consistently submitted pull requests to keep the extension up to date.
-<hr>
+# Hide Dock in Overview
 
-![screenshot_6195](https://github.com/RosGtHub/Hide-dock-in-overview/assets/89165766/a5b113de-62ba-4ac1-bfee-609b14ae23f7)
+A GNOME Shell extension that hides the dash/dock when entering overview mode, keeping your workspace clean and distraction-free.
 
-<h1>Installation</h1>
+> **This is a community fork of [hide-dock-in-overview](https://github.com/RosGtHub/Hide-dock-in-overview) by [RosGtHub](https://github.com/RosGtHub).**  
+> The original project has been sunset by its author. This fork exists to continue maintenance and compatibility updates (hopefully).  
+> Special thanks to [gookie-dev](https://github.com/gookie-dev) for consistently keeping the original extension up to date before.
 
+![screenshot](https://github.com/RosGtHub/Hide-dock-in-overview/assets/89165766/a5b113de-62ba-4ac1-bfee-609b14ae23f7)
+
+---
+
+## Compatibility
+
+| GNOME Shell | Status |
+|---|---|
+| 46 | ✅ Supported |
+| 47 | ✅ Supported |
+| 48 | ✅ Supported |
+| 50 | ✅ Supported |
+
+---
+
+## Installation
+
+### Manual
+
+```bash
+# Clone the repository
+git clone https://github.com/cipheraenys/Hide-Dock-In-Overview
+
+# Move it to the extensions directory
+mv Hide-Dock-In-Overview ~/.local/share/gnome-shell/extensions/Hide-Dock-In-Overview@ciferatorium
 ```
-# Open the terminal and clone the repository
 
-git clone https://github.com/RosGtHub/Hide-dock-in-overview
+Then log out and log back in (required on Wayland), and enable the extension:
 
-# move it to ~/.local/share/gnome-shell/extensions
-
-sudo mv /home/$USER/Hide-dock-in-overview ~/.local/share/gnome-shell/extentions
+```bash
+gnome-extensions enable Hide-Dock-In-Overview@ciferatorium
 ```
-Now reboot and you should be able to see and enable the extention. 
-If you have any problems, feel free to open an issue.
+
+Or enable it via [GNOME Extensions](https://extensions.gnome.org) app or [Extension Manager](https://github.com/mjakeman/extension-manager).
+
+---
+
+## Contributing
+
+Issues and pull requests are welcome. If you're on a GNOME version not listed above and it works (or doesn't), feel free to open an issue and let me know.
+
+---
+
+## License
+
+This project inherits the original license from [RosGtHub/Hide-dock-in-overview][![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0). See [LICENSE](LICENSE) for details.
