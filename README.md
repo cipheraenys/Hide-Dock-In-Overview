@@ -51,10 +51,14 @@ Issues and pull requests are welcome. If you're on a GNOME version not listed ab
 
 ## Credits
 
-This project is based on the original work by [RosGtHub]((https://github.com/RosGtHub/Hide-dock-in-overview).
+This project is based on the original work by [RosGtHub](https://github.com/RosGtHub/Hide-dock-in-overview).
 
 ---
 
 ## License
 
-This project inherits the original license from [RosGtHub/Hide-dock-in-overview] [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0). See [LICENSE](LICENSE) for details.
+This project inherits the original license from [RosGtHub/Hide-dock-in-overview](https://github.com/RosGtHub/Hide-dock-in-overview).
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+See [LICENSE](LICENSE) for details.
