@@ -57,8 +57,5 @@ This project is based on the original work by [RosGtHub](https://github.com/RosG
 
 ## License
 
-This project inherits the original license from [RosGtHub/Hide-dock-in-overview](https://github.com/RosGtHub/Hide-dock-in-overview).
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
+This project inherits the original [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) from [RosGtHub/Hide-dock-in-overview](https://github.com/RosGtHub/Hide-dock-in-overview).
 See [LICENSE](LICENSE) for details.
