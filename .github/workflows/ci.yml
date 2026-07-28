@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [Master]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate metadata.json
+        run: |
+          jq -e '
+            (.uuid | test("^[A-Za-z0-9._-]+@[A-Za-z0-9._-]+$"))
+            and (.name | type == "string" and length > 0)
+            and (."shell-version" | type == "array" and length > 0)
+          ' metadata.json > /dev/null
+      - name: Check required files
+        run: test -f extension.js
