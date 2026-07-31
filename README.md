@@ -23,6 +23,10 @@ A GNOME Shell extension that hides the dash/dock when entering overview mode, ke
 
 ## Installation
 
+### extensions.gnome.org (recommended)
+
+Search for **Hide Dock in Overview** on [extensions.gnome.org](https://extensions.gnome.org), or install it from [Extension Manager](https://github.com/mjakeman/extension-manager). GNOME keeps the extension up to date automatically.
+
 ### Manual
 
 ```bash
@@ -38,8 +42,6 @@ Then log out and log back in (required on Wayland), and enable the extension:
 ```bash
 gnome-extensions enable Hide-Dock-In-Overview@Ciferatorium
 ```
-
-Or enable it via [GNOME Extensions](https://extensions.gnome.org) app or [Extension Manager](https://github.com/mjakeman/extension-manager).
 
 ---
 
