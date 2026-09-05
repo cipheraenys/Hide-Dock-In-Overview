@@ -30,13 +30,13 @@ A GNOME Shell extension that hides the dash/dock when entering overview mode, ke
 git clone https://github.com/cipheraenys/Hide-Dock-In-Overview
 
 # Move it to the extensions directory
-mv Hide-Dock-In-Overview ~/.local/share/gnome-shell/extensions/Hide-Dock-In-Overview@ciferatorium
+mv Hide-Dock-In-Overview ~/.local/share/gnome-shell/extensions/Hide-Dock-In-Overview@Ciferatorium
 ```
 
 Then log out and log back in (required on Wayland), and enable the extension:
 
 ```bash
-gnome-extensions enable Hide-Dock-In-Overview@ciferatorium
+gnome-extensions enable Hide-Dock-In-Overview@Ciferatorium
 ```
 
 Or enable it via [GNOME Extensions](https://extensions.gnome.org) app or [Extension Manager](https://github.com/mjakeman/extension-manager).
