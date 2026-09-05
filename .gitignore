@@ -1,0 +1,4 @@
+dist/
+*.zip
+.directory
+*.swp
